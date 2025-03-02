@@ -69,7 +69,7 @@ export default function Home1() {
     }, []);
 
     return (
-        <div className="relative bg-gradient-to-br from-gray-50 to-blue-50 sm:h-[80vh] h-[100vh] flex items-center px-4 sm:px-8 md:px-32">
+        <div className="relative bg-gradient-to-br from-gray-50 to-blue-50 h-[100vh] md:h-[80vh] flex items-center px-4 sm:px-8 md:px-32 overflow-y-auto sm:overflow-hidden">
             <div className="container mx-auto py-10 flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
                 {/* Text Content */}
                 <div ref={textRef} className="flex flex-col space-y-6 text-center md:text-left max-w-lg">
@@ -102,7 +102,8 @@ export default function Home1() {
                             <ambientLight intensity={0.5} />
                             <directionalLight position={[2, 2, 2]} />
                             <Model />
-                            <OrbitControls enableZoom={false} enableRotate={false} />
+                            {/* Prevent zooming, rotating, and panning */}
+                            <OrbitControls enableZoom={false} enableRotate={false} enablePan={false} />
                         </Suspense>
                     </Canvas>
                 </div>
