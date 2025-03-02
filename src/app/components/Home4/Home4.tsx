@@ -91,7 +91,7 @@ const Home4 = () => {
                                     className="fill"
                                 />
                                 <div className="absolute bottom-0 right-0 p-2 bg-white rounded-tl-lg z-10">
-                                    <feature.icon className="w-6 h-6" />
+                                    {React.createElement(feature.icon, { className: "w-6 h-6" })}
                                 </div>
                             </div>
                             <CardHeader>

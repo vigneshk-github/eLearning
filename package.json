@@ -12,6 +12,8 @@
     "@clerk/nextjs": "^6.10.4",
     "@emailjs/browser": "^4.4.1",
     "@radix-ui/react-slot": "^1.1.1",
+    "@react-three/drei": "^10.0.3",
+    "@react-three/fiber": "^9.0.4",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "gsap": "^3.12.7",
@@ -22,13 +24,15 @@
     "react-dom": "^19.0.0",
     "react-icons": "^5.5.0",
     "tailwind-merge": "^2.6.0",
-    "tailwindcss-animate": "^1.0.7"
+    "tailwindcss-animate": "^1.0.7",
+    "three": "^0.174.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/three": "^0.174.0",
     "eslint": "^9",
     "eslint-config-next": "15.1.6",
     "postcss": "^8",
