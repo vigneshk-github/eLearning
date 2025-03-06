@@ -3,6 +3,7 @@ import React, { useEffect, useRef } from "react";
 import { CalendarIcon, ClockIcon, ComputerIcon, UsersIcon, MapPinIcon, DollarSignIcon } from "lucide-react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import Link from "next/link";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -79,7 +80,7 @@ const Home10: React.FC = () => {
                 {/* Header Section */}
                 <div className="p-8 text-center">
                     <h1 className="text-4xl md:text-5xl font-bold mb-4">Enroll in AI for Juniors Program</h1>
-                    <p className="text-lg md:text-xl max-w-4xl mx-auto leading-relaxed">
+                    <p className="flex justify-center items-center text-lg md:text-xl max-w-4xl mx-auto text-center leading-relaxed">
                         We plan to launch a summer program for gated communities in Telangana, offering both online and
                         offline learning options to provide students with a flexible, engaging, and collaborative environment
                         for exploring AI, fostering curiosity and innovation within their residential spaces.
@@ -141,7 +142,8 @@ const Home10: React.FC = () => {
                         ref={buttonRef}
                         className="bg-blue-600 text-white text-lg font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-blue-700 transition"
                     >
-                        Enroll Now
+                        <Link href="/registration">Enroll Now</Link>
+
                     </button>
                 </div>
             </div>

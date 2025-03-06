@@ -73,7 +73,7 @@ export default function Home1() {
             <div className="container mx-auto py-10 flex flex-col md:flex-row items-center justify-between space-y-10 md:space-y-0">
                 {/* Text Content */}
                 <div ref={textRef} className="flex flex-col space-y-6 text-center md:text-left max-w-lg">
-                    <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold leading-tight text-gray-900">
+                    <h1 className="text-5xl sm:text-6xl md:text-7xl font-bold leading-tight text-gray-900">
                         <span className="block">
                             <p className="text-orange-400">Learn.</p>
                             <p className="text-green-400">Create.</p>
@@ -86,11 +86,11 @@ export default function Home1() {
 
                     {/* Buttons */}
                     <div ref={btnRef} className="flex flex-col sm:flex-row justify-center md:justify-start space-y-3 sm:space-y-0 sm:space-x-4">
-                        <Button className="w-full sm:w-auto shadow-md hover:shadow-lg transition-all duration-300">
+                        <Button className="w-full text-xl p-5 font-bold sm:w-auto shadow-md hover:shadow-lg transition-all duration-300">
                             <Link href="/#early">Explore Courses</Link>
                         </Button>
-                        <Button className="w-full sm:w-auto shadow-md hover:shadow-lg transition-all duration-300" variant="outline">
-                            <Link href="/#enroll">Plan of Action</Link>
+                        <Button className="w-full text-xl p-5 font-bold sm:w-auto shadow-md hover:shadow-lg transition-all duration-300" variant="outline">
+                            <Link href="https://calendly.com/praveen-iith/meeting">Book a Call</Link>
                         </Button>
                     </div>
                 </div>

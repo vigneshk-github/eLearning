@@ -1,7 +1,6 @@
 "use client";
 import React, { useEffect, useRef } from "react";
 import Image, { StaticImageData } from "next/image";
-import Link from "next/link";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 
@@ -113,16 +112,7 @@ const Home3: React.FC = () => {
                 ))}
             </div>
 
-            <div className="mt-8">
-                <Link href="/#enroll">
-                    <button
-                        ref={buttonRef}
-                        className="px-6 py-3 text-lg font-semibold text-white bg-blue-600 rounded-lg shadow-md hover:bg-blue-700 transition-all"
-                    >
-                        Enroll Now
-                    </button>
-                </Link>
-            </div>
+            
         </div>
     );
 };

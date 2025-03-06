@@ -15,7 +15,7 @@ interface LeadershipTeamProps {
 const defaultLeaders: Leader[] = [
     {
         name: "Rahul LR",
-        role: "PhD student, IIT Hyderabad",
+        role: "PhD, IIT Hyderabad",
         imageUrl: img1,
     },
     {
@@ -45,7 +45,7 @@ const Home7: React.FC<LeadershipTeamProps> = ({ leaders = defaultLeaders }) => {
                             Meet our leadership
                         </h2>
                         <p className="mt-4 sm:mt-6 text-base sm:text-lg text-gray-600">
-                            We re a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
+                            We are a dynamic group of individuals who are passionate about what we do and dedicated to delivering the best results for our clients.
                         </p>
                     </div>
                     <ul role="list" className="grid gap-6 sm:gap-8 grid-cols-1 sm:grid-cols-2 xl:col-span-2">

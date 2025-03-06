@@ -9,9 +9,6 @@ import Home13 from "./components/Home13/Home13";
 import Home2 from "./components/Home2/Home2";
 import Home3 from "./components/Home3/Home3";
 import Home7 from "./components/Home7/Home7";
-import Home8 from "./components/Home8/Home8";
-import Home9 from "./components/Home9/Home9";
-import CourseRegistration from "./components/Register/Register";
 import Video from "./components/Video/Video";
 
 export default function App() {
@@ -25,10 +22,7 @@ export default function App() {
       <Home13/>
       <Home10/>
       <Video/>
-      <Home8/>
-      <Home9/>
       <Home7/>
-      <CourseRegistration/>
       <Contact/>
       <Faq/>
       <Footer/>
