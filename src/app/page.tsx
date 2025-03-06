@@ -1,6 +1,5 @@
 import Contact from "./components/Contact/Contact";
 import Faq from "./components/Faq/Faq";
-import Footer from "./components/Footer/Footer";
 import Home1 from "./components/Home1/Home1";
 import Home10 from "./components/Home10/Home10";
 import Home11 from "./components/Home11/Home11";
@@ -25,7 +24,6 @@ export default function App() {
       <Home7/>
       <Contact/>
       <Faq/>
-      <Footer/>
     </div>
   );
 }

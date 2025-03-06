@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "./components/Navbar/Navbar";
 import { ClerkProvider } from '@clerk/nextjs';
 import { Roboto} from 'next/font/google'
+import Footer from "./components/Footer/Footer";
 
 const roboto = Roboto({
   weight: '400',
@@ -25,6 +26,7 @@ export default function RootLayout({
         <body className="">
           <Navbar />
           {children}
+          <Footer/>
         </body>
       </html>
     </ClerkProvider>
